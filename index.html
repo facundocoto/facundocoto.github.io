@@ -75,11 +75,11 @@
               >Educación</a
             >
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills"
               >Conocimientos</a
             >
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests"
               >Portfolio</a
@@ -88,26 +88,29 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Cursos</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">Contacto</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
 
     <div class="container-fluid p-0">
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <section
+        class="resume-section header p-3 p-lg-5 d-flex d-column"
+        id="about"
+      >
         <div class="my-auto">
           <h1 class="mb-0">
-            Facundo
-            <span class="text-primary">Coto</span>
+            <span class="text-primary">Facundo Coto</span>
           </h1>
-          <div class="subheading mb-5">
-            Ingeniero en Sistemas de Información · Analista Universitario de
-            Sistemas
-            <a href="mailto:facundocoto1@gmail.com">facundocoto1@gmail.com</a>
+          <div class="subheading mb-5" id="subtitle">
+            Ingeniero en Sistemas de Información · Web developer
           </div>
           <div class="social-icons">
+            <a href="mailto:facundocoto1@gmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
             <a href="https://www.linkedin.com/in/facundo-coto-74b313a5/">
               <i class="fab fa-linkedin-in"></i>
             </a>
@@ -138,8 +141,8 @@
               <h3 class="mb-0">Freelancer</h3>
               <div class="subheading mb-3">Autónomo</div>
               <p>
-                Consultor Freelancer, adaptando a las necesidades de los
-                clientes y utilizando diferentes tecnologías.
+                Dev freelancer, adaptado a las necesidades de los clientes en
+                diferentes tipos de proyectos.
               </p>
             </div>
             <div class="resume-date text-md-right">
@@ -152,9 +155,7 @@
               <h3 class="mb-0">Desarrollador Jr</h3>
               <div class="subheading mb-3">Sidesys IT Solutions</div>
               <p>
-                Tareas de análisis, diseño de arquitectura y desarrollo
-                Font-end. Se trabaja con Angular (6+), API REST y frameworks
-                para mejorar la experiencia del usuario.
+                Tareas de análisis, diseño de arquitectura y desarrollo web.
               </p>
             </div>
             <div class="resume-date text-md-right">
@@ -168,9 +169,12 @@
               <div class="subheading mb-3">UTN - FRCU</div>
               <p>
                 Grupo de investigación en la UTN-FRCU con especialización en la
-                minería de datos. Actualmente se está trabajando en un proyecto
-                para el procesamiento de streams en tiempo real y la
-                construcción de un dashboard para la toma de decisiones.
+                minería de datos. Publicacioón de paper
+                <i>
+                  Diseño de arquitectura escalable para el procesamiento de
+                  streams en tiempo real
+                </i>
+                y presentaciones de investigacion en distintos congresos.
               </p>
             </div>
             <div class="resume-date text-md-right">
@@ -184,6 +188,7 @@
               <div class="subheading mb-3">UTN - FRCU</div>
               <p>
                 Ayudante alumno en la cátedra Gestión de Datos en la UTN-FRCU.
+                Apoyo en trabajos prácticos y seguimiento.
               </p>
             </div>
             <div class="resume-date text-md-right">
@@ -193,11 +198,9 @@
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Desarrollador Front-End</h3>
-              <div class="subheading mb-3">PedidosYa!</div>
-              <p>
-                Desarrolo en la PWA de la empresa.
-              </p>
+              <h3 class="mb-0">Software Engineer Frontend</h3>
+              <div class="subheading mb-3">PedidosYa</div>
+              <p>Appscore developer y owner de proyecto.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2019 - Act.</span>
@@ -206,11 +209,9 @@
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Full Stack</h3>
+              <h3 class="mb-0">Full Stack Dev</h3>
               <div class="subheading mb-3">ViajaFácil</div>
-              <p>
-                Desarrollo y consultoria en la startup ViajaFácil.
-              </p>
+              <p>Miembro de startup <a href="viajafacil.uy">ViajaFacil</a></p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2019 - Act.</span>
@@ -272,7 +273,7 @@
 
       <hr class="m-0" />
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Conocimientos</h2>
 
@@ -284,16 +285,11 @@
               <i class="devicon-javascript-plain colored"></i>
               <i class="fab fa-react colored"></i>
               <i class="devicon-angularjs-plain colored"></i>
-              <i class="devicon-bootstrap-plain colored"></i>
               <i class="devicon-nodejs-plain-wordmark colored"></i>
-              <i class="fab fa-npm"></i>
-              <i class="devicon-php-plain colored"></i>
-              <i class="devicon-codeigniter-plain colored"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicon-csharp-plain colored"></i>
               <i class="devicon-git-plain colored"></i>
-              <i class="devicon-gitlab-plain-wordmark colored"></i>
               <i class="devicon-mysql-plain-wordmark colored"></i>
               <i class="devicon-postgresql-plain-wordmark colored"></i>
               <i class="devicon-mongodb-plain-wordmark colored"></i>
@@ -312,7 +308,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <hr class="m-0" />
 
@@ -341,7 +337,7 @@
               </div>
               <div class="card-footer">
                 <ul class="list-inline dev-icons">
-                  <li style="font-size: 2vw;">
+                  <li style="font-size: 2vw">
                     <i class="devicon-csharp-plain colored"></i>
                     <i class="devicon-postgresql-plain-wordmark colored"></i>
                     <i class="devicon-windows8-original colored"></i>
@@ -367,7 +363,7 @@
               </div>
               <div class="card-footer">
                 <ul class="list-inline dev-icons">
-                  <li style="font-size: 2vw;">
+                  <li style="font-size: 2vw">
                     <i class="devicon-html5-plain colored"></i>
                     <i class="devicon-css3-plain colored"></i>
                     <i class="devicon-bootstrap-plain colored"></i>
@@ -392,7 +388,7 @@
               </div>
               <div class="card-footer">
                 <ul class="list-inline dev-icons">
-                  <li style="font-size: 2vw;">
+                  <li style="font-size: 2vw">
                     <i class="devicon-html5-plain colored"></i>
                     <i class="devicon-css3-plain colored"></i>
                     <i class="devicon-bootstrap-plain colored"></i>
@@ -424,7 +420,7 @@
               </div>
               <div class="card-footer">
                 <ul class="list-inline dev-icons">
-                  <li style="font-size: 2vw;">
+                  <li style="font-size: 2vw">
                     <i class="devicon-csharp-plain colored"></i>
                     <i class="devicon-windows8-original colored"></i>
                   </li>
@@ -448,7 +444,7 @@
               </div>
               <div class="card-footer">
                 <ul class="list-inline dev-icons">
-                  <li style="font-size: 2vw;">
+                  <li style="font-size: 2vw">
                     <i class="devicon-postgresql-plain-wordmark colored"></i>
                     <i class="devicon-python-plain-wordmark"></i>
                   </li>
@@ -465,13 +461,43 @@
               <div class="card-body">
                 <h5 class="card-title">Gestion de pagos para UNLP</h5>
                 <p class="card-text">
-                  Proyecto para Universidad Nacional de La Plata - Facultad de Psicologia - Secretaría de Posgrado para gestion de inscripciones y pagos.
+                  Proyecto para Universidad Nacional de La Plata - Facultad de
+                  Psicologia - Secretaría de Posgrado para gestion de
+                  inscripciones y pagos.
                 </p>
               </div>
               <div class="card-footer">
                 <ul class="list-inline dev-icons">
-                  <li style="font-size: 2vw;">
+                  <li style="font-size: 2vw">
                     <i class="fab fa-react colored"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tercera fila-->
+          <div class="card-deck mt-4">
+            <!-- Tecer proyecto -->
+            <div class="card" style="max-width: 337px">
+              <img
+                class="card-img-top"
+                src="https://cdn.searchenginejournal.com/wp-content/uploads/2019/01/10-Ways-to-Think-Like-Googlebot-1520x800.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Stock Crawler</h5>
+                <p class="card-text">
+                  Bot para consultar distintas webs de ventas y conseguir stock
+                  de un producto, consumiendo, procesando la informacion y
+                  evaluando los estados. El mismo envia una notificación cuando
+                  el producto buscado tenía stock disponible.
+                </p>
+              </div>
+              <div class="card-footer">
+                <ul class="list-inline dev-icons">
+                  <li style="font-size: 2vw">
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
                   </li>
                 </ul>
               </div>
