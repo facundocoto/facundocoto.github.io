@@ -20,6 +20,8 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  //estoy haciendo un comentario de prueba para recordarte que tomes agua <3
+  
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#sideNav'
